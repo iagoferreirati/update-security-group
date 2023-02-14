@@ -2,7 +2,7 @@
 
 # Set profile
 profile="pessoal"
-cidr="10.200.0.0/16"
+cidr="10.10.0.0/16"
 Description='ALLOW VPC KUBERNETES'
 port="-1"
 
