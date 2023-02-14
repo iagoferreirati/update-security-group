@@ -4,14 +4,18 @@ Este script é usado para inserir novas regras em todos os security groups exist
 
 Devera ser declarado as seguintes variavaeis:
 
-- Profile cadastrado no ~/.aws/credentials
-profile="pessoal"  
+Profile cadastrado no ~/.aws/credentials
 
-- Bloco cidr a ser liberado
-cidr="10.10.0.0/16"
+- profile="pessoal"  
 
-- Porta a ser liberada
-port="-1" 
+Bloco cidr a ser liberado
 
-- Descrição da regra
-Description='ALLOW VPC KUBERNETES'
+- cidr="10.10.0.0/16"
+
+Porta a ser liberada
+
+- port="-1" 
+
+Descrição da regra
+
+- Description='ALLOW VPC KUBERNETES'
